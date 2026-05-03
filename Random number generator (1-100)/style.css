@@ -1,0 +1,30 @@
+body
+{
+    background-color: rgb(210, 189, 249);
+}
+#random-number
+{
+    display: block;
+    text-align: center;
+    font-size: 300px;
+    font-family: Arial;
+}
+#buttons
+{
+    display: block;
+    text-align: center;
+    margin-top: 10%;
+}
+.button
+{
+    font-size: 30px;
+    font-family: Arial;
+    padding: 10px 20px;
+    color: rgb(93, 11, 245);
+    background-color: aquamarine;
+}
+.button:hover
+{
+    background-color: rgb(13, 1, 35);
+    color: rgb(179, 61, 229);
+}
