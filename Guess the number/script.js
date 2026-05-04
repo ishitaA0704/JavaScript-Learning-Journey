@@ -6,6 +6,9 @@ let attempts = 0;
 let guess;
 let run = true;
 
+document.getElementById("PLAY").onclick = function()
+{
+
 while (run) {
   guess = window.prompt(`Guess a number between ${minNum} - ${maxNum}`);
   guess = Number(guess);
@@ -27,4 +30,5 @@ while (run) {
       run = false;
     }
   }
+}
 }
