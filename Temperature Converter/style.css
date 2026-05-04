@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #2de5fa;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,10 +9,10 @@ body {
 }
 
 form {
-    background-color: #ffffff;
+    background-color: #7ba9f9;
     padding: 20px 25px;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 8px rgba(227, 37, 37, 0.1);
     text-align: center;
 }
 
@@ -24,17 +24,16 @@ h1 {
 #textbox
 {
     width: 100%;
-    padding: 8px;
+    font-size: 70px;
     margin-bottom: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #a42727;
     border-radius: 4px;
     text-align: center;
 }
 
 label 
 {
-    margin-left: 5px;
-    margin-top: 10px;
+    margin-bottom: 8px;
 }
 
 button {
