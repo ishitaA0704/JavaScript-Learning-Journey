@@ -9,8 +9,11 @@
 <body> 
     <div class="container"> 
         <h1>Dice Roller</h1> 
-        
-        <button id="rollButton">Roll Dice</button> 
+        <label for="Number of Dices">Number of Dice:</label>
+        <input type="number" min="1" value="1">
+        <button onclick="rollDice()">Roll Dice</button>
+        <div id="result"></div>
+        <div id="images"></div>
     </div> 
 
     <script src="script.js"></script>
