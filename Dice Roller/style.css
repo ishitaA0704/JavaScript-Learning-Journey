@@ -21,17 +21,11 @@ button
     background-color: #c1f1c2;
     color: #333;
     cursor: pointer;
-    transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
 button:hover 
 {
-    background-color: #94f196;
-}
-
-button:active
-{
-    transform: scale(0.95);
+    background-color: #6ef570;
 }
 
 input
@@ -39,9 +33,9 @@ input
     font-size: 20px;
     padding: 8px;
     border-radius: 10px;
-    border: 1px solid #ccc;
+    border: 1px   solid #ffc6c6;
     width: 100px;
-    text-align: center;
+     text-align: center;
     outline: none;
 }
 
@@ -60,7 +54,7 @@ input:focus
 #images
 {
     margin-top: 15px;
-    text-align: center;
+    text-align:  center;
 }
 
 #images img
