@@ -28,7 +28,7 @@ Each project focuses on applying specific concepts in a practical way.
 
 ## 📌 Note
 
-These projects are based on a tutorial and are meant for learning purposes. I plan to improve and expand them as I continue learning.
+These projects are based on a tutorial of the video series i was following and are meant for learning purposes. I have improved them and added my own insights to it with new features to it.
 
 ## 🔗 Next Steps
 
