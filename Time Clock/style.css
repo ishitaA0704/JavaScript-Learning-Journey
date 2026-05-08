@@ -20,7 +20,7 @@ body{
     font-size : 200px;
     text-align: center;
     color : #000000;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(50px);
     border-radius: 20px;
     padding: 20px;
     background-color: aqua;
