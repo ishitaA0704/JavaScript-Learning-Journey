@@ -1,3 +1,50 @@
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(160, 169, 250);
+
+    
+    
+}
 #myH1 {
-    text-align: center;
+    font-size: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 10px solid #d99cee;
+    padding: 20px;
+    border-radius: 10px;
+}
+#display
+{
+    font-size: 300px    
+    ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #241b27; 
+}
+
+#controls button
+{
+    font-size: 100px;
+    margin-top: 20px;   
+    font-weight: bold;
+    padding : 30px;
+    border : 2px solid #d99cee;
+    border-radius: 50px;
+    background-color: #c691fb;
+}
+#controls button:hover
+{
+    background-color: #4169eb;
+    cursor: pointer;
 }
