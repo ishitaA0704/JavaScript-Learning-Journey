@@ -5,8 +5,8 @@ body{
     justify-content: center;
     background-color: rgb(38, 47, 113);
 }
-#buttons button
-{
+
+#buttons button {
     width: 100px;
     height: 100px;
     font-size: 40px;
@@ -14,22 +14,22 @@ body{
     border-radius: 100px;
     background-color: #f1f184;
     color: rgb(15, 10, 10);
-    font-weight : bold;
+    font-weight: bold;
 }
-#buttons button:hover
-{
+
+#buttons button:hover {
     background-color: #fcfcca;
     cursor: pointer;
 }
-#buttons
-{
+
+#buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
 }
-#calculator
-{
+
+#calculator {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,12 +39,21 @@ body{
     padding: 20px;
     border-radius: 10px;
 }
-#display
-{
+
+#display {
     width: 400px;
     height: 100px;
     font-size: 40px;
     padding: 10px;
     border: none;
     border-radius: 100px;
+}
+
+#buttons .operator {
+    background-color: rgb(243, 116, 116);
+    color: white;
+}
+
+#buttons .operator:hover {
+    background-color: rgb(244, 99, 99);
 }
